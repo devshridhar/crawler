@@ -1,0 +1,18 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Web Crawler for extracting entity-specific data from dynamic and static websites.",
+  "main": "src/crawler.js",
+  "scripts": {
+    "start": "node src/crawler.js",
+    "export": "node src/export-csv.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "crawler": "^1.5.0",
+    "csv-writer": "^1.6.0",
+    "jsdom": "^25.0.1",
+    "playwright": "^1.49.1",
+    "sqlite3": "^5.1.7"
+  }
+}
